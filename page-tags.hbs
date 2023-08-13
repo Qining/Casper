@@ -9,7 +9,7 @@
             {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
             {{#foreach tags}}
                 {{!-- The tag below includes the markup for each tag - partials/tag-card.hbs --}}
-                {{> "tag-card"}}
+                {{> "post-card"}}
             {{/foreach}}
             {{/get}}
         </div>
